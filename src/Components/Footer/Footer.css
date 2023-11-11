@@ -93,8 +93,8 @@ footer .footer-title {
   width: max-content;
 }
 
-footer .footer-tel {
-  color: #cca27e;
+#footer-tele {
+  color: blue;
   transition: 0.5s ease;
   margin-left: 5px;
 }
@@ -149,7 +149,7 @@ footer .socials {
 #footer-link {
   font-size: 18px;
   margin: 0 10px;
-  color: var(--darken);
+  color: rgb(52, 52, 243);
   transition: 0.5s ease;
 }
 #footer-link:hover {
@@ -182,4 +182,9 @@ footer .footer-tel {
 
 footer .footer-tel:hover {
   color: var(--primary1);
+}
+
+.copy {
+  color: black;
+  text-align: center;
 }

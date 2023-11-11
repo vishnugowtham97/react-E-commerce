@@ -31,7 +31,11 @@ const Footer = () => {
               <div className="contact-wraper">
                 <p>
                   <b>Phone:</b>
-                  <a className="footer-tel" href="tel:+1234567890">
+                  <a
+                    className="footer-tel"
+                    id="footer-tele"
+                    href="tel:+1234567890"
+                  >
                     Call us at +1 (234) 567-890
                   </a>
                 </p>
@@ -162,7 +166,7 @@ const Footer = () => {
           <hr className="credit-footer" />
           <div className="row">
             <div className="col-12 col-md-6">
-              <p className="text-center text-md-start">
+              <p className="copy text-md-start">
                 &copy;All copyrights received 2023
               </p>
             </div>

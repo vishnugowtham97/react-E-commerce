@@ -1,8 +1,5 @@
 import React, { useContext, useState } from "react";
 import "./Cart.css";
-import pr1 from "../../Assets/Images/product/f1.jpg";
-import pr2 from "../../Assets/Images/product/f2.jpg";
-import { RiDeleteBack2Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { PRODUCTS } from "../../Components/Products/Products";
 import { PRODUCTS1 } from "../../Components/Products/Products";

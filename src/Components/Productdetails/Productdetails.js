@@ -5,7 +5,6 @@ import { PRODUCTS, PRODUCTS1 } from "../Products/Products";
 const ProductDetails = () => {
   const {
     selectedProduct,
-    closeProductDetails,
     addToCart,
     cartItems,
     removeToCart,
@@ -79,7 +78,7 @@ const ProductDetails = () => {
 
               <div className="d-flex justify-content-center">
                 <button
-                  onClick={() => {
+                  onClick={(event) => {
                     addToCart(product.id);
                     event.target.classList.toggle("red");
                   }}

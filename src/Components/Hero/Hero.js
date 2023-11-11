@@ -84,7 +84,7 @@ const Hero = () => {
                 <div className="col-6 col-md-4 col-lg-2">
                   <div className="card fast-order">
                     <img
-                      src={orders3}
+                      src={orders4}
                       className="card-img-top img-fluid m-auto"
                       alt="24/7 Support"
                     />

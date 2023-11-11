@@ -4,7 +4,6 @@ import "./Prod.css";
 import { ShopContext } from "../Shopcontext/Shopcontext";
 import ReactStars from "react-rating-stars-component";
 import { Link } from "react-router-dom";
-import Details from "../../Pages/Details/Details";
 
 const Prod = (props) => {
   const { id, name, price, image, brand } = props.data;
@@ -41,7 +40,7 @@ const Prod = (props) => {
             </div>
             <div className="button-event">
               <button
-                onClick={() => {
+                onClick={(event) => {
                   addToCart(id);
                   event.target.classList.toggle("red");
                 }}

@@ -2,9 +2,7 @@ import React from "react";
 import "./Newarrival.css";
 
 import { Link } from "react-router-dom";
-import { PRODUCTS } from "../Products/Products";
 import { PRODUCTS1 } from "../Products/Products";
-import ReactStars from "react-rating-stars-component";
 
 const Newarrivals = () => {
   return (
